@@ -183,6 +183,41 @@ body{
   border-color: #b92b27 transparent transparent #b92b27;
 }
 
+.form-group{
+  width: 770px;
+  margin: 10px auto 0;
+}
+
+.form-group #formGroupExampleInput{
+  font-size: 22px;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.form-group #inputEmail3{
+  font-size: 22px;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.form-group #inputPassword3{
+  font-size: 22px;
+  text-align: left;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.form-group .btn-primary{
+  font-size: 24px;
+  background-color: #fbbf24; /*#f87171; #fbbf24; #312e81;*/
+  color: black; /*#34d399;*/
+  border: none;             
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 
     </style>
 </head>
@@ -194,12 +229,12 @@ body{
     <h1 class="display-4">Izaberite predmet</h1>
     <br>
     <div class="mx-auto" style="width: 300px;">
-<input type="checkbox" id="osnovna" name="Osnovna" value="Osnovna">
-  <label for="vehicle1" class="mb-0" > Osnovna</label>
-  <input type="checkbox" id="srednja" name="Srednja" value="Srednja">
-  <label for="vehicle2" class="mb-0"> Srednja</label>
-  <input type="checkbox" id="fakultet" name="Fakultet" value="Fakultet">
-  <label for="vehicle3" class="mb-0"> Fakultet</label>
+  	<input type="checkbox" id="osnovna" name="Osnovna" value="Osnovna">
+    <label for="vehicle1" class="mb-0" > Osnovna</label>
+    <input type="checkbox" id="srednja" name="Srednja" value="Srednja">
+    <label for="vehicle2" class="mb-0"> Srednja</label>
+    <input type="checkbox" id="fakultet" name="Fakultet" value="Fakultet">
+    <label for="vehicle3" class="mb-0"> Fakultet</label>
   </div>
   
 </div>
@@ -267,6 +302,28 @@ body{
 
 </div>
 
+<form>
+  <div class="form-group">
+    <label for="formGroupExampleInput" class="form-label">Ime i prezime</label>
+    <div>
+    <input type="text" class="text" id="formGroupExampleInput" placeholder="Example input">
+    </div>
+    
+    <label for="inputEmail3" class="form-label"> Email </label>
+    <div class="col-sm-10">
+      <input type="email" class="email" id="inputEmail3" placeholder="Email">
+    </div>
+    
+    <label for="inputPassword3" class="form-label">Password</label>
+    <div class="col-sm-10">
+      <input type="password" class="password" id="inputPassword3" placeholder="Password">
+    </div>
+    
+    <div class="col-sm-10">
+      <button type="submit" class="btn-primary">Registriruj se</button>
+    </div>
+  </div>
+</form>
 
 
     <!-- Optional JavaScript; choose one of the two! -->
@@ -278,5 +335,8 @@ body{
     <!-- Option 2: Separate Popper and Bootstrap JS -->
    
 </body>
+
+
+
 </html>
 
