@@ -210,13 +210,14 @@ body{
 }
 
 .form-group .btn-primary{
-  font-size: 24px;
+  font-size: 22px;
   background-color: #fbbf24; /*#f87171; #fbbf24; #312e81;*/
   color: black; /*#34d399;*/
   border: none;             
   border-radius: 5px;
   margin-top: 10px;
   margin-bottom: 20px;
+  padding: 11px;
 }
 
     </style>

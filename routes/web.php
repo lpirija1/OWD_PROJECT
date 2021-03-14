@@ -24,3 +24,11 @@ Route::get('teacher', function () {
 Route::get('/student-login', function () {
     return view('student-login');
 })->name('student-login');
+
+Route::get('/student-subject', function () {
+    return view('student-subject');
+})->name('student-subject');
+
+Route::get('/student-feedback', function () {
+    return view('student-feedback');
+})->name('student-feedback');
